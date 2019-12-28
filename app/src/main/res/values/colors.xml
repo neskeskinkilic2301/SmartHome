@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#252F39</color>
+    <color name="colorPrimaryDark">#1B222A</color>
+    <color name="colorAccent">#1C9EB4</color>
+    <!--#1C9EB4   0E4F5A-->
+    <!--https://i.pinimg.com/originals/76/5a/b0/765ab04d6639803a20aaf4e2992931a6.jpg-->
+    <!--https://apkpure.com/android-material-design-templates/com.haroon.haroonpc.mymaterialdesign#com.haroon.haroonpc.mymaterialdesign-3-->
+    <!--https://tr.pinterest.com/pin/630222541585514065/?nic=1a&sender=686376936867401509-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="whitecustom">#FAFAFA</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_grey">#80000000</color>
+    <color name="new_grey">#D2D2D2</color>
+
+
+    <color name="colorCharcoalGray">#353b48</color>
+    <color name="colorBlueGray">#7f8fa6</color>
+
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="background_holo_light_sec">#757575</color>
+
+    <color name="zxing_transparent">#00000000</color>
+
+    <color name="red">#F44336</color>
+</resources>
