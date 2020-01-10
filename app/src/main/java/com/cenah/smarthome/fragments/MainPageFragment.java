@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 
 import com.cenah.smarthome.R;
 import com.cenah.smarthome.activities.CctvActivity;
+import com.cenah.smarthome.activities.IpActivity;
 import com.cenah.smarthome.activities.RegisterActivity;
 import com.cenah.smarthome.helpers.PrograssBarDialog;
 
@@ -46,6 +47,13 @@ public class MainPageFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(), RegisterActivity.class));
+            }
+        });
+
+        rootView.findViewById(R.id.btn_cam).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), IpActivity.class));
             }
         });
     }

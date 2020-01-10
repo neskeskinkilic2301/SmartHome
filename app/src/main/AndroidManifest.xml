@@ -17,13 +17,14 @@
         android:supportsRtl="true"
         android:theme="@style/CustomNoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activities.FingerprintActivity"></activity>
+        <activity android:name=".activities.IpActivity"></activity>
+        <activity android:name=".activities.FingerprintActivity" />
         <activity android:name=".activities.CctvActivity" />
-        <activity android:name=".activities.RegisterActivity"></activity>
+        <activity android:name=".activities.RegisterActivity" />
         <activity
             android:name=".activities.HomePageActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan"></activity>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".activities.LoginActivity"
             android:screenOrientation="portrait"
